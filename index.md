@@ -20,7 +20,7 @@ Private key
 ```
 Public Key
 ```
-
+![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/public%20key.png?raw=true)
 ```
 No Password
 ```

@@ -15,6 +15,7 @@ First Message
 * The methods called in my code is the static method `start` of the `Server` class that starts a server
  with a designated port number.  Additionally, in the `ChatServer` class, the methods `handleRequest`
  and `history` are called.
+*
 
 ```
 Second Message

@@ -13,6 +13,7 @@ Second Message
 ```
 ![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/second%20message.png?raw=true)
 
+## SSH key
 ```
 Private key
 ```
@@ -25,4 +26,11 @@ Public Key
 No Password
 ```
 ![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/no%20password.png?raw=true)
+
+## Summary
+```
+Throughout weeks 2 and 3, I have learned more about servers.  In week two, I learned how
+to create a serve along with accessing the query and url info.  Additionally, in week
+three, I learned how to create a pair of keys to access 
+```
 

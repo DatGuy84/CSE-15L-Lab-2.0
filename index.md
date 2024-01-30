@@ -6,7 +6,10 @@
 First Message
 ```
 ![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/First%20message.png?raw=true) 
-
+```
+The methods called in my code is the static method start of the server class that starts a server
+with a designated port number.  
+```
 
 ```
 Second Message

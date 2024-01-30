@@ -31,6 +31,7 @@ No Password
 ```
 Throughout weeks 2 and 3, I have learned more about servers.  In week two, I learned how
 to create a serve along with accessing the query and url info.  Additionally, in week
-three, I learned how to create a pair of keys to access 
+three, I learned how to create a pair of keys, public and private, that could be used
+to sign in with my ieng6 account.
 ```
 

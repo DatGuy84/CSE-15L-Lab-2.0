@@ -20,11 +20,11 @@ First Message
   to give `dialogues` its String values.
 * When `/add-message` is apart of the url, the `handleRequest` method searches for the query, and
   `parameters` splits the query by the & symbol which separates the message and user.  `Mparameters` splits the
-  message part and assigns it to the `message` variable, and `Uparameters` splits the user part and assigns it
-  to the `user` variable.  The `dialogue` variable is then given a value in the format `user`: `message` and
+  message part and assigns Hello to the `message` variable, and `Uparameters` splits the user part and assigns jpolitz
+  to the `user` variable.  The `dialogue` variable is then given a value in the format `jpolitz: Hello` and
   is added to `HistoryList` and returns the `history` method.  Since the `history` method is called, for every
   string in `HistoryList`, the variable `dialouges` is given the value of each string in `HistoryList` which is
-  separated by `\n`.  `dialouges` is returned and prints out the string. 
+  separated by `\n`.  `dialouges` is returned and displays `jpolitz: Hello`. 
 ```
 Second Message
 ```
@@ -37,11 +37,11 @@ Second Message
   to give `dialogues` its String values.
 * When `/add-message` is apart of the url, the `handleRequest` method searches for the query, and
   `parameters` splits the query by the & symbol which separates the message and user.  `Mparameters` splits the
-  message part and assigns it to the `message` variable, and `Uparameters` splits the user part and assigns it
-  to the `user` variable.  The `dialogue` variable is then given a value in the format `user`: `message` and
+  message part and assigns How Are You to the `message` variable, and `Uparameters` splits the user part and assigns yash
+  to the `user` variable.  The `dialogue` variable is then given a value in the format `yash: How Are You` and
   is added to `HistoryList` and returns the `history` method.  Since the `history` method is called, for every
   string in `HistoryList`, the variable `dialouges` is given the value of each string in `HistoryList` which is
-  separated by `\n`.  `dialouges` is returned and prints out the string. 
+  separated by `\n`.  `dialouges` is returned and displays `jpolitz: Hello` on top and `yash: How+Are+You` on bottom. 
 
 ## SSH key
 ```

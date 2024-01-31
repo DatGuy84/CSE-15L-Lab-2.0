@@ -16,8 +16,17 @@ First Message
  with a designated port number.  Additionally, in the `ChatServer` class, the methods `handleRequest`
  and `history` are called.
 * In the `handleRequest` method, `url` of type `Uri` is taken in as an argument.  The String ArrayList called
-  `HistoryList` and the three String variables (`user`, `message`, and `dialogue`) are given values inside
-  `handleRequest`.  The `history` method has a String variable called `dialogues`
+  `HistoryList`, the three String variables (`user`, `message`, and `dialogue`), and the
+   three String Arrays (`parameters`, `Mparameters`, and `Uparameters`) are given values inside
+  `handleRequest`.  The `history` method has a String variable called `dialogues` and uses `HistoryList`
+  to give `dialogues` its String values.
+* When `/add-message` is apart of the url, the `handleRequest` method searches for the query, and
+  parameters splits the query by the & symbol which separates the message and user.  Mparameters splits the
+  message part and assigns it to the `message` variable, and Uparameters splits the user part and assigns it
+  to the `user` variable.  The `dialogue` variable is then given a value in the format `user`: `message` and
+  is added to `HistoryList` and returns the `history` method.  Since the `history` method is called, for every
+  string in `HistoryList`, the variable `dialouges` is given the value of each string in `HistoryList` which is
+  separated by `\n`.  `dialouges` is returned and prints out the string. 
 ```
 Second Message
 ```

@@ -45,13 +45,10 @@ Second Message
 
 ## SSH key
 ```
-Private key
+Private key and Public key
 ```
-![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/Password%20key.png?raw=true)
-```
-Public Key
-```
-![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/public%20key.png?raw=true)
+![Image](https://github.com/DatGuy84/CSE-15L-Lab-2.0/blob/main/keys.png?raw=true)
+
 ```
 No Password
 ```
